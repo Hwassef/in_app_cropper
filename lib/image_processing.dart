@@ -70,21 +70,6 @@ class ImageProcessing {
     return completer.future;
   }
 
-  // Method to load an image from a network URL
-  Future<ui.Image> _loadImageFromNetwork(String imageUrl) async {
-    final Completer<ui.Image> completer = Completer();
-
-    NetworkImage(imageUrl).resolve(ImageConfiguration()).addListener(
-      ImageStreamListener(
-        (info, _) {
-          completer.complete(info.image);
-        },
-      ),
-    );
-
-    return completer.future;
-  }
-
   // Method to handle image processing from a network URL
   Future<void> processImageFromNetwork(
       String imageUrl, Size containerSize, Offset offset) async {

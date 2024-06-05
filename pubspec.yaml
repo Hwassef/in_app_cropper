@@ -1,5 +1,5 @@
 name: in_app_cropper
-description: "An interactive image cropping widget for Flutter that supports both local and network images. Customize crop settings, drag item size, and rotation. Extract and process cropped images effortlessly."
+description: "An interactive Flutter widget for cropping local and network images. Customize settings, drag size, and rotation. Easily extract and process cropped images."
 version: 0.0.1
 homepage: https://github.com/Hwassef/in_app_cropper
 
