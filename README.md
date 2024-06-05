@@ -13,17 +13,17 @@
 
 Add `in_app_cropper` to your `pubspec.yaml`:
 
-```yaml
-dependencies:
-  in_app_cropper: ^1.0.0
-
-Then, run flutter pub get to install the package.
-
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+```yaml
+dependencies:
+  in_app_cropper: ^1.0.0
+
+Then, run flutter pub get to install the package.
 
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
