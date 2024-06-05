@@ -12,6 +12,11 @@
 ## Installation
 
 Add `in_app_cropper` to your `pubspec.yaml`:
+dependencies:
+  in_app_cropper: ^1.0.0
+
+Then, run flutter pub get to install the package.
+## Parameters
 
 | Parameters        | Description
 | ------------- |:-------------:|
@@ -38,11 +43,6 @@ Add `in_app_cropper` to your `pubspec.yaml`:
 
 
 ```yaml
-dependencies:
-  in_app_cropper: ^1.0.0
-
-Then, run flutter pub get to install the package.
-
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
