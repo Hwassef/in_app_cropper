@@ -19,63 +19,12 @@ dependencies:
 
 Then, run flutter pub get to install the package.
 
-Usage
-Here’s a basic example of how to use InAppCropper:
-import 'package:flutter/material.dart';
-import 'dart:io';
-import 'package:in_app_cropper/in_app_cropper.dart';
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: Text('InAppCropper Example')),
-        body: CropperDemo(),
-      ),
-    );
-  }
-}
-
-class CropperDemo extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: InAppCropper(
-        imageFile: File('path_to_image.jpg'),
-        imageWidth: 300,
-        imageHeight: 400,
-        onExtractedImage: (croppedImageFile) {
-          // Handle the extracted image file
-        },
-        canCropImage: true,
-      ),
-    );
-  }
-}
-Parameters
-networkImage: URL of the network image to be displayed.
-imageFile: Local image file to be displayed.
-canCropImage: Enables or disables cropping functionality.
-dragItemSize: Initial size of the drag item for cropping.
-step: Step value for increasing or decreasing the drag item size.
-cropBorderDecoration: Decoration for the border around the draggable crop item.
-increaseWidget: Widget for increasing the drag item size.
-decreaseWidget: Widget for decreasing the drag item size.
-imageWidth: Width of the image container.
-imageHeight: Height of the image container.
-placeHolderImage: Placeholder image while loading or when no image is available.
-rotationDuration: Duration for rotation animations in milliseconds.
-title: Widget to display as a title above the crop controls.
-sliderActiveColor: Color of the active slider track.
-sliderInactiveColor: Color of the inactive slider track.
-sliderThumbColor: Color of the slider thumb.
-canRotate: Enables or disables image rotation.
-onExtractedImage: Callback function triggered when an image region is extracted.
-imageDecoration: Decoration for the image container.
-extractWidget: Widget for the button to extract the image after cropping.
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
