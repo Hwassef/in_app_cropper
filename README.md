@@ -42,8 +42,8 @@ Then, run flutter pub get to install the package.
 | extractWidget        | Widget for the button to extract the image after cropping      | Widget?             | Optional            |
 
 
-```yaml
-Contributing
+###   Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
 License
@@ -53,5 +53,3 @@ Contact
 For any questions or suggestions, please reach out at [hassinewassef@gmail.com].
 
 Enjoy using InAppCropper! If you find it useful, please star the repository on GitHub.
-
-
