@@ -41,6 +41,9 @@ Then, run flutter pub get to install the package.
 | imageDecoration      | Decoration for the image container                             | BoxDecoration?      | Optional            |
 | extractWidget        | Widget for the button to extract the image after cropping      | Widget?             | Optional            |
 
+##  Examples
+
+[Counter](https://github.com/Hwassef/in_app_cropper/tree/main/example) - an example of how to create a InAppCropper in a pure Dart app.
 
 ###   Contributing
 
