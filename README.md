@@ -43,7 +43,7 @@ Then, run flutter pub get to install the package.
 
 ##  Examples
 
-[Counter](https://github.com/Hwassef/in_app_cropper/tree/main/example) - an example of how to create a InAppCropper in a pure Dart app.
+[InAppCropper](https://github.com/Hwassef/in_app_cropper/tree/main/example) - an example of how to create a InAppCropper in a pure Dart app.
 
 ###   Contributing
 
