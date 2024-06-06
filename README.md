@@ -18,7 +18,7 @@ dependencies:
 Then, run flutter pub get to install the package.
 ## Parameters
 
-| Parameters           | Description                                                    | Type                | Required / Optional |
+|Parameter           |Description                                                    | Type                | Required / Optional |
 |----------------------|----------------------------------------------------------------|---------------------|---------------------|
 | canCropImage         | Enables or disables cropping functionality                     | bool                | Required            |
 | dragItemSize         | Initial size of the drag item for cropping                     | double              | Required            |
