@@ -18,28 +18,28 @@ dependencies:
 Then, run flutter pub get to install the package.
 ## Parameters
 
-| Parameters           | Description                                                    |  Type                |  Required / Optional
-| -----------------    |:--------------:|                                               |:-------------:|      |:-------------:|
-| canCropImage         | Enables or disables cropping functionality                     |  bool                | Required
-| dragItemSize         | Initial size of the drag item for cropping                     |  double              | Required
-| step                 | Step value for increasing or decreasing the drag item size     |  int                 | Required
-| imageWidth           | Width of the image container                                   |  double              | Required
-| imageHeight          | Height of the image container                                  |  double              | Required
-| canRotate            | Enables or disables image rotation                             |  bool                | Required
-| onExtractedImage     | Callback function triggered when an image region is extracted  |  ValueChanged<File>  | Required
-| networkImage         | URL of the network image to be displayed                       |  String?             | Optional
-| imageFile            | Local image file to be displayed                               |  File?               | Optional
-| cropBorderDecoration | Decoration for the border around the draggable crop item       | BoxBorder?           | Optional
-| increaseWidget       | Widget for increasing the drag item size                       |  Widget?             | Optional
-| decreaseWidget       | Widget for decreasing the drag item size                       |  Widget?             | Optional
-| placeHolderImage     | Placeholder image while loading or when no image is available  |  Image?              | Optional
-| rotationDuration     | Duration for rotation animations in milliseconds               |  int?                | Optional
-| title                | Widget to display as a title above the crop controls           |  Widget?             | Optional
-| sliderActiveColor    | Color of the active slider track                               |  Color?              | Optional
-| sliderInactiveColor  | Color of the inactive slider track                             |  Color?              | Optional
-| sliderThumbColor     | Color of the slider thumb                                      |  Color?              | Optional
-| imageDecoration      | Decoration for the image container                             |  BoxDecoration?      | Optional
-| extractWidget        | Widget for the button to extract the image after cropping      |  Widget?             | Optional
+| Parameters           | Description                                                    | Type                | Required / Optional |
+|----------------------|----------------------------------------------------------------|---------------------|---------------------|
+| canCropImage         | Enables or disables cropping functionality                     | bool                | Required            |
+| dragItemSize         | Initial size of the drag item for cropping                     | double              | Required            |
+| step                 | Step value for increasing or decreasing the drag item size     | int                 | Required            |
+| imageWidth           | Width of the image container                                   | double              | Required            |
+| imageHeight          | Height of the image container                                  | double              | Required            |
+| canRotate            | Enables or disables image rotation                             | bool                | Required            |
+| onExtractedImage     | Callback function triggered when an image region is extracted  | ValueChanged<File>  | Required            |
+| networkImage         | URL of the network image to be displayed                       | String?             | Optional            |
+| imageFile            | Local image file to be displayed                               | File?               | Optional            |
+| cropBorderDecoration | Decoration for the border around the draggable crop item       | BoxBorder?          | Optional            |
+| increaseWidget       | Widget for increasing the drag item size                       | Widget?             | Optional            |
+| decreaseWidget       | Widget for decreasing the drag item size                       | Widget?             | Optional            |
+| placeHolderImage     | Placeholder image while loading or when no image is available  | Image?              | Optional            |
+| rotationDuration     | Duration for rotation animations in milliseconds               | int?                | Optional            |
+| title                | Widget to display as a title above the crop controls           | Widget?             | Optional            |
+| sliderActiveColor    | Color of the active slider track                               | Color?              | Optional            |
+| sliderInactiveColor  | Color of the inactive slider track                             | Color?              | Optional            |
+| sliderThumbColor     | Color of the slider thumb                                      | Color?              | Optional            |
+| imageDecoration      | Decoration for the image container                             | BoxDecoration?      | Optional            |
+| extractWidget        | Widget for the button to extract the image after cropping      | Widget?             | Optional            |
 
 
 ```yaml
